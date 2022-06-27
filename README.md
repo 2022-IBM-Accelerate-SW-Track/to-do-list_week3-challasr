@@ -97,6 +97,7 @@ test('test that App component renders Task', () => {
 + If you want to check if a value is equal to something you can use `expect(value).toBe(value_I_want)`.
 + Note: that the elements returned by `getByRole` or `getByText` may not have css or styling. If you want to have those values put a `data-testid` in that component and use `getByTestId` to grab those IDs.
 + If we want to check if a value is 
+
 1. Complete the Following Test Cases in `src/AddTodo.test.js`
     + No duplicate task
     + Submit Task with No Due Date
